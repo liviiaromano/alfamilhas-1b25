@@ -64,6 +64,7 @@ footer iframe{
 }
 footer{
     background-color: #444;
+    padding: 40px 0;
 }
 .formulario input{
     width: 90%;
@@ -74,4 +75,56 @@ footer{
     font-size: 20px;
     padding: 10px;
     color: #fff;
+}
+.depoimentos{
+    text-align: center;
+    padding: 40px 0;
+}
+.depoimentos h3{
+    color: #444;
+    font-weight: bold;
+}
+.depoimentos h2{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    padding: 20px;
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 55px;
+    border: 5px solid #f4f4f4
+}
+.depoimentos .descricao{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 30px 0;
+}
+.depoimentos .nome{
+    color: #444;
+    font-weight: bold;
+}
+.sobre{
+    background: url('img/empresa.jpg') 50% / cover no-repeat fixed;
+}
+.sobre .texto{
+    width: 50%;
+    background-color: #444;
+    color: white;
+    padding: 40px;
+    height: 270px;
+}
+.texto h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.texto h2, .texto p{
+    max-width: 570px ;
+    float: right;
+    display: block;
+    clear: both;
+}
+.viagens{
+    padding: 40px 0;
 }
