@@ -1,0 +1,51 @@
+@media(max-width:480px){
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .texto{
+        display: none;  /*esconde o elemento nas telas pequenas */
+    }
+    p{
+        text-align: center; /*texto alinhado ao centro */
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    body{
+        background-color: green;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .texto{
+        display: none; /*esconde o elemento nas telas pequenas */
+    }
+    p{
+        text-align: center; /*texto alinhado ao centro */
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    body{
+        background-color: blue;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        text-align: justify; /*texto justificado */
+    }
+}
+@media(min-width:1024px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        text-align: left; /*texto alinhado a esquerda */
+    }
+}
+
